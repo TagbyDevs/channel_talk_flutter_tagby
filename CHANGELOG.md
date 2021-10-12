@@ -1,5 +1,5 @@
-## 2.0.0
-- Null safety support
+## 1.1.1
+- fix channel talk ios sdk import error
 
 ## 1.1.0
 - Update ChannelIOSDK

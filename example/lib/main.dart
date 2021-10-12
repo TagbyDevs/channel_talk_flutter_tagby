@@ -556,10 +556,10 @@ class _MyAppState extends State<MyApp> {
               ElevatedButton(
                 onPressed: () async {
                   try {
-                    final bool? result =
+                    final bool result =
                         await ChannelTalk.openStoredPushNotification();
 
-                    if (result!) {
+                    if (result) {
                       showMessageToast('openStoredPushNotification success');
                     } else {
                       showMessageToast('openStoredPushNotification fail');
@@ -575,9 +575,9 @@ class _MyAppState extends State<MyApp> {
               ElevatedButton(
                 onPressed: () async {
                   try {
-                    final bool? result = await ChannelTalk.isBooted();
+                    final bool result = await ChannelTalk.isBooted();
 
-                    if (result!) {
+                    if (result) {
                       showMessageToast('isBooted success');
                     } else {
                       showMessageToast('isBooted fail');
