@@ -1,3 +1,6 @@
+## 1.2.0
+- fix error for ChannelIO 9.1.2 version
+
 ## 1.1.1
 - fix channel talk ios sdk import error
 
