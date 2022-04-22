@@ -1,3 +1,6 @@
+## 1.3.0
+- Update Android ChannelIOSDK to 10.0.1
+
 ## 1.2.1
 - fix updateUser SDK error
 - fix to broadcast recieved push message not for Channel Talk
