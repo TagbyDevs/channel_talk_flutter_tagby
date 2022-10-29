@@ -33,7 +33,7 @@ android {
     }
 
     dependencies {
-        implementation 'io.channel:plugin-android:10.0.3'
+        implementation 'io.channel:plugin-android:10.0.5'
         implementation "com.google.firebase:firebase-messaging:20.1.0"
     }
 
